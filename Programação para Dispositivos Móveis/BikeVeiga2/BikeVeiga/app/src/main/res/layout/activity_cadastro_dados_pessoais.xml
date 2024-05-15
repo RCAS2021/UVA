@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroDadosPessoaisActivity">
+
+    <Button
+        android:id="@+id/btntelaconf"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/btntelaconf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caixacartaocv" />
+
+    <TextView
+        android:id="@+id/cabecalhocadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/telacadastro"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/caixanome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textonome"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textonome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cabecalhocadastro" />
+
+    <TextView
+        android:id="@+id/textomatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/matricula"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caixanome" />
+
+    <EditText
+        android:id="@+id/caixamatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="@string/matricula"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textomatricula"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textosexo">
+
+        <RadioButton
+            android:id="@+id/btnsexo1"
+            android:layout_width="130dp"
+            android:layout_height="38dp"
+            android:text="@string/btnsexo1" />
+
+        <RadioButton
+            android:id="@+id/btnsexo2"
+            android:layout_width="130dp"
+            android:layout_height="38dp"
+            android:text="@string/btnsexo2" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textosexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/sexo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caixamatricula" />
+
+    <CheckBox
+        android:id="@+id/checkcomputacao"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/chkbx1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textocurso" />
+
+    <TextView
+        android:id="@+id/textocurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/curso"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup1" />
+
+    <CheckBox
+        android:id="@+id/checkcivil"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/chkbx2"
+        app:layout_constraintStart_toEndOf="@+id/checkcomputacao"
+        app:layout_constraintTop_toBottomOf="@+id/textocurso" />
+
+    <CheckBox
+        android:id="@+id/checkproducao"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/chkbx3"
+        app:layout_constraintStart_toEndOf="@+id/checkcivil"
+        app:layout_constraintTop_toBottomOf="@+id/textocurso" />
+
+    <CheckBox
+        android:id="@+id/checkmecanica"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/chkbx4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/checkproducao"
+        app:layout_constraintTop_toBottomOf="@+id/textocurso" />
+
+    <TextView
+        android:id="@+id/textotelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/telefone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkcomputacao" />
+
+    <EditText
+        android:id="@+id/caixatelefone"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="(00) 0000-0000"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textotelefone" />
+
+    <TextView
+        android:id="@+id/textoemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caixatelefone" />
+
+    <EditText
+        android:id="@+id/caixaemail"
+        android:layout_width="256dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoemail" />
+
+    <TextView
+        android:id="@+id/textocartao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/cartao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caixaemail" />
+
+    <EditText
+        android:id="@+id/caixanomecartao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:hint="@string/cartaonome"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textocartao" />
+
+    <EditText
+        android:id="@+id/caixacartaonumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:hint="@string/cartaonumero"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caixanomecartao" />
+
+    <EditText
+        android:id="@+id/caixacartaovalidade"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/cartaovalidade"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/caixanomecartao"
+        app:layout_constraintTop_toBottomOf="@+id/textocartao" />
+
+    <EditText
+        android:id="@+id/caixacartaocv"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/cartaocv"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/caixacartaonumero"
+        app:layout_constraintTop_toBottomOf="@+id/caixacartaovalidade" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textocartaobandeira">
+
+        <RadioButton
+            android:id="@+id/btncartband1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btncartband1" />
+
+        <RadioButton
+            android:id="@+id/btncartband2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btncartband2" />
+
+        <RadioButton
+            android:id="@+id/btncartband3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btncartband3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textocartaobandeira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/cartaobandeira"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caixacartaonumero" />
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/btntelainicial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntelaconf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color:gainsboro;
+    margin-left:3px;   
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    text-align:center;
+}
+
+a{
+    color: black;
+    text-align-last:top;
+}
+
+
+.Introdução{
+    margin-bottom:5px;
+    margin-top:5px;
+    text-align:center;
+
+}
+
+.Info{
+    margin-bottom:5px;
+    margin-top:5px;
+    text-align:center;
+}
+
+figure{
+    margin-top:50px;
+    text-align: center;
+}
+
+footer{
+    text-align:center;
+    background-color:darkgray;
+}
+
+
+.adress{
+    color:black;
+}
+
+.Objetivo{
+    margin-left:30px;
+}
+
+.FormacaoAcademica{
+    margin-left:30px;
+}
+
+.Habilidades{
+    margin-left:30px;
+}
+
+.Habilidades h2{
+    margin-left:15px;
+}
+
+.Habilidades p{
+    margin-left:30px;
+}
+
+.Experiência{
+        margin-left:30px;
+}
+
+.Contatos{
+    margin-left:30px;
+}
+
+.Portifolio{
+    margin-left:30px;
+}

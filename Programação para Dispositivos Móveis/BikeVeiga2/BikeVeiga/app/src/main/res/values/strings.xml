@@ -1,0 +1,77 @@
+<resources>
+    <!-- String nome_aplicativo -->
+    <string name="app_name">BikeVeiga</string>
+
+    <!-- Strings cabeçalho_activity -->
+    <!-- Tela main -->
+    <string name="bemvindo">Seja Bem Vindo ao Aplicativo Bike Veiga</string>
+    <!-- Tela cadastro -->
+    <string name="telacadastro">Tela de Cadastro</string>
+    <!-- Tela Confirmacao -->
+    <string name="telaconfirmacao">Tela de Confirmação</string>
+    <!-- Tela Pedaladas -->
+    <string name="telapedaladas">Histórico de Pedaladas</string>
+    <!-- Tela Agendamentos -->
+    <string name="telaagendamentos">Tela de Agendamentos</string>
+    <!-- Tela Milhas -->
+    <string name="telamilhas">Tela de Milhas</string>
+
+    <!-- Strings corpo_activity -->
+    <!-- Tela main -->
+    <string name="maintexto">Com o aplicativo Bike Veiga, o aluno da UVA poderá
+                se cadastrar e, então, realizar o agendamento do empréstimo de uma bike,
+                essa iniciativa da UVA pretende promover uma maior facilidade e qualidade de vida
+                aos alunos da UVA, permitindo que o aluno se locomova para a universidade
+                com maior facilidade, além de permitir um controle da quantidade de pedaladas
+                e, para incentivar o aluno a utilizar a bicicleta, terá uma premiação baseado
+                em milhas ganhas por pedalada, aproveite!</string>
+    <!-- Tela cadastro -->
+    <string name="matricula">Digite sua matricula</string>
+    <string name="nome">Digite seu nome</string>
+    <string name="sexo">Selecione seu Sexo</string>
+    <string name="curso">Selecione seu curso</string>
+    <string name="telefone">Digite seu telefone</string>
+    <string name="email">Digite seu email</string>
+    <string name="cartao">Dados do cartão</string>
+    <string name="cartaonome">Nome do Titular</string>
+    <string name="cartaonumero">Numero do cartão</string>
+    <string name="cartaovalidade">Validade</string>
+    <string name="cartaocv">CV</string>
+    <string name="cartaobandeira">Selecione a bandeira</string>
+
+    <!-- Tela Agendamento -->
+    <string name="textoagendamento">Selecione a data do agendamento</string>
+    <!-- Tela Milhas -->
+    <string name="textomilhas">Número de milhas acumuladas:</string>
+    <string name="textomilhas2">Pacote de plantas medicinais</string>
+    <string name="textomilhas3">Preço: 200 Milhas</string>
+    <string name="textomilhas4">Quadro de fotos</string>
+    <string name="textomilhas5">Preço:250 Milhas</string>
+
+    <!-- Strings botoes -->
+    <!-- Tela main -->
+    <string name="btncadastro">Cadastrar-se</string>
+    <string name="btnpedaladas">Pedaladas</string>
+    <string name="btnmilhas">Milhas</string>
+    <string name="btnagendamentos">Agendamentos</string>
+    <!-- Tela cadastro -->
+    <!-- RadioButtonGroup 1 -->
+    <string name="btnsexo1">Masculino</string>
+    <string name="btnsexo2">Feminino</string>
+    <!-- CheckBox -->
+    <string name="chkbx1">Computação</string>
+    <string name="chkbx2">Civil</string>
+    <string name="chkbx3">Produção</string>
+    <string name="chkbx4">Mecanica</string>
+    <!-- RadioButtonGroup 2 -->
+    <string name="btncartband1">Elo</string>
+    <string name="btncartband2">Visa</string>
+    <string name="btncartband3">Mastercard</string>
+    <!-- Button -->
+    <string name="btntelaconf">Proximo</string>
+    <string name="btntelainicial">Voltar</string>
+    <!-- Tela Confirmacao -->
+    <string name="btnconfirm">Confirmar</string>
+    <string name="btncancelar">Cancelar</string>
+
+</resources>
